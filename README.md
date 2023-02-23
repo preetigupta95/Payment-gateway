@@ -69,7 +69,7 @@ const createCustomer = async () => {
 };
 createCustomer();
 ```
-#### Create product
+#### Create Product
 
 You can use `stripe.products.create` to create product:
 
@@ -80,7 +80,7 @@ const product = await stripe.products.create({
   name: 'Gold Special',
 });
 ```
-#### Create price
+#### Create Price
 
 You can use `stripe.prices.create` to create price:
 
@@ -94,7 +94,7 @@ const price = await stripe.prices.create({
   product: 'prod_id_...',
 });
 ```
-#### Create coupon
+#### Create Coupon
 
 You can use `stripe.coupons.create` to create coupon:
 
@@ -107,7 +107,7 @@ const coupon = await stripe.coupons.create({
   duration_in_months: 3,
 });
 ```
-#### Create card
+#### Create Card
 
 You can use `stripe.customers.createSource` to create card:
 
