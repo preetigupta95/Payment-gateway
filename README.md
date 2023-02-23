@@ -1,9 +1,6 @@
 ## Stripe Documentation
 
 See the [`stripe-node` API docs](https://stripe.com/docs/api?lang=node) for Node.js.
-
-See [video demonstrations][youtube-playlist] covering how to use the library.
-
 ## Requirements
 
 Node 12 or higher.
@@ -21,7 +18,7 @@ yarn add stripe
 ## Usage
 
 The package needs to be configured with your account's secret key, which is
-available in the [Stripe Dashboard][api-keys]. Require it with the key's
+available in the [Stripe Dashboard](https://dashboard.stripe.com/login). Require it with the key's
 value:
 
 <!-- prettier-ignore -->
@@ -50,7 +47,7 @@ console.log(customer.id);
 
 ### Usage with TypeScript
 
-As of 8.0.1, Stripe maintains types for the latest [API version][api-versions].
+As of 8.0.1, Stripe maintains types for the latest [API version](https://stripe.com/docs/api/versioning).
 
 Import Stripe as a default import (not `* as Stripe`, unlike the DefinitelyTyped version)
 and instantiate it as `new Stripe()` with the latest API version.
