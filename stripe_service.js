@@ -200,15 +200,4 @@ const retrieveCouponDetails = async function (couponCode) {
     throw error;
   }
 };
-module.exports = {
-  createProduct,
-  createPrice,
-  archiveProduct,
-  updateProduct,
-  createCustomer,
-  addCard,
-  createSubscription,
-  deleteSubscription,
-  webhookEvent,
-  retrieveCouponDetails,
-};
+
